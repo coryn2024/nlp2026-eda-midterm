@@ -1,0 +1,13 @@
+{
+    "experiment": "rnn_baseline",
+    "seed": 44,
+    "train_samples": 400,
+    "epochs_ran": 10,
+    "best_epoch": 7,
+    "best_val_loss": 0.6251512813568115,
+    "early_stopped": true,
+    "test_accuracy": 0.6961009174311926,
+    "test_loss": 0.5789089388803604,
+    "prediction_file": "results\\predictions_rnn_baseline_seed44.csv",
+    "checkpoint_file": "results\\rnn_baseline\\seed44\\best_model.pt"
+}

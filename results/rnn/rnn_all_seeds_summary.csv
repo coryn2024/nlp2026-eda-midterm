@@ -1,0 +1,11 @@
+﻿experiment,seed,train_samples,epochs_ran,best_epoch,best_val_loss,early_stopped,test_accuracy,test_loss,prediction_file,checkpoint_file
+rnn_baseline,42,400,8,5,0.6254068326950073,True,0.7087155963302753,0.5788360227138625,results\predictions_rnn_baseline_seed42.csv,results\rnn_baseline\seed42\best_model.pt
+rnn_eda,42,6800,4,1,0.8809179306030274,True,0.6639908256880734,0.8448736109864821,results\predictions_rnn_eda_seed42.csv,results\rnn_eda\seed42\best_model.pt
+rnn_baseline,43,400,8,5,0.5824937224388123,True,0.7178899082568807,0.5814285879835076,results\predictions_rnn_baseline_seed43.csv,results\rnn_baseline\seed43\best_model.pt
+rnn_eda,43,6800,4,1,0.7067246866226197,True,0.7075688073394495,0.6412182882291462,results\predictions_rnn_eda_seed43.csv,results\rnn_eda\seed43\best_model.pt
+rnn_baseline,44,400,10,7,0.6251512813568115,True,0.6961009174311926,0.5789089388803604,results\predictions_rnn_baseline_seed44.csv,results\rnn_baseline\seed44\best_model.pt
+rnn_eda,44,6800,4,1,0.9431527423858642,True,0.6938073394495413,0.7568015182783844,results\predictions_rnn_eda_seed44.csv,results\rnn_eda\seed44\best_model.pt
+rnn_baseline,45,400,11,8,0.6133095598220826,True,0.7305045871559633,0.5493689698910494,results\predictions_rnn_baseline_seed45.csv,results\rnn_baseline\seed45\best_model.pt
+rnn_eda,45,6800,4,1,0.6850667977333069,True,0.6972477064220184,0.6247784872667506,results\predictions_rnn_eda_seed45.csv,results\rnn_eda\seed45\best_model.pt
+rnn_baseline,46,400,8,5,0.611616530418396,True,0.7236238532110092,0.5689871562730282,results\predictions_rnn_baseline_seed46.csv,results\rnn_baseline\seed46\best_model.pt
+rnn_eda,46,6800,4,1,0.7872626876831055,True,0.680045871559633,0.8049223521433839,results\predictions_rnn_eda_seed46.csv,results\rnn_eda\seed46\best_model.pt

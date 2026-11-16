@@ -1,0 +1,47 @@
+{
+  "variant": "baseline",
+  "seed": 45,
+  "evaluation_full": {
+    "n": 872,
+    "accuracy": 0.7144495412844036,
+    "macro_f1": 0.7144491657493658,
+    "confusion_matrix_labels_0_1": [
+      [
+        311,
+        117
+      ],
+      [
+        132,
+        312
+      ]
+    ]
+  },
+  "evaluation_without_detected_overlap": {
+    "n": 826,
+    "accuracy": 0.7009685230024213,
+    "macro_f1": 0.700933017685559,
+    "confusion_matrix_labels_0_1": [
+      [
+        285,
+        117
+      ],
+      [
+        130,
+        294
+      ]
+    ]
+  },
+  "test_loss": 0.5327082451330413,
+  "best_epoch": 6,
+  "best_val_loss": 0.5708919858932495,
+  "epochs_trained": 9,
+  "stopped_early": true,
+  "optimizer_steps": 117,
+  "elapsed_seconds": 2.0541796999968938,
+  "peak_cuda_allocated_mib": 80.701171875,
+  "peak_cuda_reserved_mib": 92.0,
+  "initial_model_sha256": "1100c8d0dc708fdf36d61343ec7a257d217ed2b0021ccd550fca287166bea979",
+  "predictions_file": "predictions_cnn_baseline_seed45.csv",
+  "predictions_sha256": "b8905a593c0a0cc4218957768fb9fe59acaa143e1228a0d4b00c764eaae6265d",
+  "finished_at": "2026-11-13T21:34:21+08:00"
+}

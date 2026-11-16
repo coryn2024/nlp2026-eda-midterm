@@ -1,0 +1,31 @@
+{
+    "architecture": [
+        "Embedding(vocab_size, 300), pretrained GloVe, frozen",
+        "Bidirectional(LSTM(64), return_sequences=True)",
+        "Dropout(0.5)",
+        "Bidirectional(LSTM(32))",
+        "Dropout(0.5)",
+        "Linear(64, 20)",
+        "ReLU",
+        "Linear(20, 1)",
+        "Sigmoid at inference"
+    ],
+    "loss": "BCEWithLogitsLoss",
+    "optimizer": "Adam",
+    "learning_rate": 0.001,
+    "batch_size": 32,
+    "max_epochs": 30,
+    "early_stopping": {
+        "monitor": "val_loss",
+        "patience": 3,
+        "restore_best_weights": true
+    },
+    "initialization": {
+        "weights": "Normal",
+        "mean": 0.0,
+        "std": 0.05,
+        "bias": 0
+    },
+    "embedding_frozen": true,
+    "seed": 42
+}

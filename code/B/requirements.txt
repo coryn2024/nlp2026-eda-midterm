@@ -1,0 +1,6 @@
+# Already available in the tested myenv1 Conda environment.
+# This file records versions; CUDA PyTorch installation depends on the platform.
+numpy==2.2.6
+scikit-learn==1.7.0
+torch==2.7.0
+matplotlib>=3.7,<4

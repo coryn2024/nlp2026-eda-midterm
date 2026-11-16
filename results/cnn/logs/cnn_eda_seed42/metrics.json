@@ -1,0 +1,47 @@
+{
+  "variant": "eda",
+  "seed": 42,
+  "evaluation_full": {
+    "n": 872,
+    "accuracy": 0.7305045871559633,
+    "macro_f1": 0.7305013973368404,
+    "confusion_matrix_labels_0_1": [
+      [
+        317,
+        111
+      ],
+      [
+        124,
+        320
+      ]
+    ]
+  },
+  "evaluation_without_detected_overlap": {
+    "n": 826,
+    "accuracy": 0.7179176755447942,
+    "macro_f1": 0.7178676400524807,
+    "confusion_matrix_labels_0_1": [
+      [
+        291,
+        111
+      ],
+      [
+        122,
+        302
+      ]
+    ]
+  },
+  "test_loss": 0.5994990057901505,
+  "best_epoch": 1,
+  "best_val_loss": 0.7181518173217774,
+  "epochs_trained": 4,
+  "stopped_early": true,
+  "optimizer_steps": 852,
+  "elapsed_seconds": 2.757547999994131,
+  "peak_cuda_allocated_mib": 80.701171875,
+  "peak_cuda_reserved_mib": 92.0,
+  "initial_model_sha256": "96917b83d59d375be80c1aa3f9895c367b69e5dc4e58a9c193d610cec5ccc61f",
+  "predictions_file": "predictions_cnn_eda_seed42.csv",
+  "predictions_sha256": "703c91dd9c23854f372a398132825da57c976948ed1cb673dccab97f9eafc4e2",
+  "finished_at": "2026-11-13T18:19:16+08:00"
+}

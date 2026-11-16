@@ -1,0 +1,13 @@
+{
+    "experiment": "rnn_eda",
+    "seed": 42,
+    "train_samples": 6800,
+    "epochs_ran": 4,
+    "best_epoch": 1,
+    "best_val_loss": 0.8809179306030274,
+    "early_stopped": true,
+    "test_accuracy": 0.6639908256880734,
+    "test_loss": 0.8448736109864821,
+    "prediction_file": "results\\predictions_rnn_eda_seed42.csv",
+    "checkpoint_file": "results\\rnn_eda\\seed42\\best_model.pt"
+}
